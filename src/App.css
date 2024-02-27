@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/src/assets/background.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: lighter;
+  color: aliceblue;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: 0.5s linear;
+}
+ul {
+  gap: 20px;
+}
+
+li:hover:after {
+  width: 100%;
+}
+
+h2 {
+  padding: 2px;
+  margin: 2px;
+  color: aliceblue;
+  font-family: "Crimson Text", serif;
+  font-weight: lighter;
+  font-style: normal;
+}
