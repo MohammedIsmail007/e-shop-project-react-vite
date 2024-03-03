@@ -7,15 +7,15 @@
 }
 
 body {
-  background-image: url("/src/assets/background.jpg");
-  /* background-position: center; */
+  /* background-image: url("/src/assets/background.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: center; */
+  background-size: cover; */
+  background-color: #252a2a;
   margin: 0px;
   padding: 0px;
 }
-li {
+/* li {
   font-family: "Crimson Text", serif;
   font-size: 18px;
   font-style: normal;
@@ -34,14 +34,14 @@ li::after {
   height: 2px;
   background-color: white;
   transition: 0.5s linear;
-}
-ul {
+} */
+/* ul {
   gap: 20px;
 }
 
 li:hover:after {
   width: 100%;
-}
+} */
 
 h2 {
   padding: 2px;

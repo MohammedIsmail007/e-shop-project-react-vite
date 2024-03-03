@@ -1,10 +1,12 @@
 import "./App.css";
-import ProductList from "./ProductList";
+import Footer from "./Footer";
+import Routing from "./Routing";
+import "flowbite";
 
 function App() {
   return (
     <>
-      <ProductList />
+      <Routing />
     </>
   );
 }
