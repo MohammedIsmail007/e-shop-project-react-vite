@@ -8,7 +8,8 @@ import img3 from "./assets/item3.jpg";
 import img4 from "./assets/item4.jpg";
 import img5 from "./assets/item5.jpg";
 
-function Home() {
+function Home(props) {
+  console.log(props);
   return (
     <div>
       <Header />
