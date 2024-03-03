@@ -5,9 +5,9 @@ import "flowbite";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Routing />
-    </>
+    </div>
   );
 }
 

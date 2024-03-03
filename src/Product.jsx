@@ -9,7 +9,7 @@ function Product(props) {
           <div className="absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white border-2 transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6"></div>
         </label> */}
 
-      <div className=" w-80 p-4 bg-transparent text-white rounded-lg shadow-2xl hover:bg-slate-300 transform hover:scale-105 bg-opacity-75 transition-transform duration-300 ease-in-out">
+      <div className=" w-80 p-4 bg-transparent text-white rounded-lg shadow-2xl bg-gradient-to-br from-fuchsia-600 to-amber-200  transform hover:scale-105 bg-opacity-75 transition-transform duration-300 ease-in-out">
         <img
           className="w-full h-40 object-cover rounded-t-lg"
           alt="Card Image"
