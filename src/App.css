@@ -7,10 +7,10 @@
 }
 
 body {
-  /* background-image: url("/src/assets/background.jpg");
+  background-image: url("/src/assets/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
   background-color: #252a2a;
   margin: 0px;
   padding: 0px;

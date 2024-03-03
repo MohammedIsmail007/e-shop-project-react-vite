@@ -9,19 +9,17 @@ function Product(props) {
           <div className="absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white border-2 transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6"></div>
         </label> */}
 
-      <div className=" w-80 p-4 bg-white rounded-lg shadow-md transform hover:scale-105 bg-opacity-75 transition-transform duration-300 ease-in-out">
+      <div className=" w-80 p-4 bg-transparent text-white rounded-lg shadow-2xl hover:bg-slate-300 transform hover:scale-105 bg-opacity-75 transition-transform duration-300 ease-in-out">
         <img
           className="w-full h-40 object-cover rounded-t-lg"
           alt="Card Image"
           src={props.productsDetail.image}
         />
         <div className="p-4">
-          <h2 className="text-xl text-black font-semibold">
+          <h2 className="text-xl font-semibold">
             {props.productsDetail.title?.substring(0, 15) + "..."}
           </h2>
-          <p className="text-gray-600">
-            {props.productsDetail.description?.substring(0, 35) + "..."}
-          </p>
+          <p>{props.productsDetail.description?.substring(0, 35) + "..."}</p>
           <div className="flex justify-between items-center mt-4">
             {/* <button
               className="bg-blue-500 hover:bg-blue-600
@@ -32,7 +30,7 @@ function Product(props) {
             </button> */}
             <div>
               <div className="flex items-center space-x-2 text-base">
-                <h4 className="font-semibold text-slate-900">Ratings</h4>
+                <h4 className="font-semibold">Ratings</h4>
                 <span className="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">
                   {props.productsDetail.rating.rate}
                 </span>

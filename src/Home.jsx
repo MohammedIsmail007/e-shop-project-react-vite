@@ -189,7 +189,7 @@ function Home(props) {
 
       <br />
 
-      <div className=" bg-zinc-800 rounded-lg p-4">
+      <div>
         <ProductList />
       </div>
       <br />
