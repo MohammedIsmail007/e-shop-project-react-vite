@@ -17,7 +17,7 @@ function Product(props) {
         />
         <div className="p-4">
           <h2 className="text-xl font-semibold">
-            {props.productsDetail.title?.substring(0, 15) + "..."}
+            {props.productsDetail.title?.substring(0, 20) + "..."}
           </h2>
           <p>{props.productsDetail.description?.substring(0, 35) + "..."}</p>
           <div className="flex justify-between items-center mt-4">

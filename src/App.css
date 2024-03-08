@@ -7,12 +7,12 @@
 }
 body {
   text-align: center;
-  background-image: url("/src/assets/background.jpg");
-  background-position: center;
+  /* background-image: url("/src/assets/background.jpg"); */
+  /* background-position: center;
 
-  background-size: cover;
+  background-size: cover; */
 
-  /* background-color: #252a2a; */
+  background-color: rgb(17 24 39);
 }
 /* li {
   font-family: "Crimson Text", serif;
@@ -42,11 +42,11 @@ li:hover:after {
   width: 100%;
 } */
 
-h2 {
+/* h2 {
   padding: 2px;
   margin: 2px;
   color: aliceblue;
   font-family: "Crimson Text", serif;
   font-weight: lighter;
   font-style: normal;
-}
+} */

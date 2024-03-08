@@ -1,5 +1,5 @@
 import "./App.css";
-import Footer from "./Footer";
+
 import Routing from "./Routing";
 import "flowbite";
 

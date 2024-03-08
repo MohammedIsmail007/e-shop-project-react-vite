@@ -8,8 +8,7 @@ import img3 from "./assets/item3.jpg";
 import img4 from "./assets/item4.jpg";
 import img5 from "./assets/item5.jpg";
 
-function Home(props) {
-  console.log(props);
+function Home() {
   return (
     <div>
       <Header />
@@ -188,8 +187,13 @@ function Home(props) {
       </a> */}
 
       <br />
-
       <div>
+        <p className=" text-left text-2xl text-amber-300 font-semibold pl-1 ml-3 hover:text-blue-400">
+          Products...
+        </p>
+
+        <br />
+
         <ProductList />
       </div>
       <br />
