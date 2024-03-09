@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import React from "react";
 import ProductList from "./ProductList";
 import Header from "./Header";
@@ -7,8 +8,21 @@ import img2 from "./assets/item2.jpg";
 import img3 from "./assets/item3.jpg";
 import img4 from "./assets/item4.jpg";
 import img5 from "./assets/item5.jpg";
+import Product from "./Product";
+import ProductPage from "./ProductPage";
 
 function Home() {
+  let [products, setProducts] = useState([]);
+  useEffect(() => {
+    fetch("https://fakestoreapi.com/products")
+      .then((response) => response.json())
+      .then((productS) => {
+        setProducts(productS);
+
+        // console.log(json.product);
+      });
+  }, []);
+
   return (
     <div>
       <Header />
@@ -193,8 +207,15 @@ function Home() {
         </p>
 
         <br />
-
-        <ProductList />
+      </div>
+      <div className=" gap-3 grid grid-cols-4 items-center">
+        {products.map((productsDetail, index) => {
+          return (
+            <>
+              <Product key={index} productsDetail={productsDetail} />
+            </>
+          );
+        })}
       </div>
       <br />
       <Footer />

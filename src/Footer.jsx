@@ -4,11 +4,11 @@ function Footer() {
   const year = new Date();
   return (
     <div>
-      <footer className=" dark:bg-gray-900 text-black ">
+      <footer className="  text-black ">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black">
                 Company
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -35,7 +35,7 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black">
                 Help center
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -62,7 +62,7 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black">
                 Legal
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -84,7 +84,7 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-black uppercase dark:text-black">
                 Download
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -111,14 +111,14 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="px-4 py-6  dark:bg-gray-700 md:flex md:items-center md:justify-between">
-            <span className="text-sm text-white dark:text-gray-300 sm:text-center">
+          <div className="px-4 py-6  md:flex md:items-center md:justify-between">
+            <span className="text-sm text-black sm:text-center">
               &copy;{year.getFullYear()} All Rights Reserverd.
             </span>
             <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
               <a
                 href="#"
-                className="text-gray-400 hover:text-white dark:hover:text-white"
+                className="text-gray-400 hover:text-black dark:hover:text-black"
               >
                 <svg
                   className="w-4 h-4"
@@ -137,7 +137,7 @@ function Footer() {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white dark:hover:text-white"
+                className="text-gray-400 hover:text-black dark:hover:text-black"
               >
                 <svg
                   className="w-4 h-4"
@@ -152,7 +152,7 @@ function Footer() {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white dark:hover:text-white"
+                className="text-gray-400 hover:text-black dark:hover:text-black"
               >
                 <svg
                   className="w-4 h-4"
@@ -171,7 +171,7 @@ function Footer() {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white dark:hover:text-white"
+                className="text-gray-400 hover:text-black dark:hover:text-black"
               >
                 <svg
                   className="w-4 h-4"
@@ -190,7 +190,7 @@ function Footer() {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-white dark:hover:text-white"
+                className="text-gray-400 hover:text-black dark:hover:text-black"
               >
                 <svg
                   className="w-4 h-4"
