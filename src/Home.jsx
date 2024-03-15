@@ -42,7 +42,7 @@ function Home() {
                   color: "black",
                 }}
               >
-                <h1 style={{ fontSize: "80px" }}>
+                <h1 style={{ fontSize: "50px" }}>
                   <b>WELCOME TO E-SHOP</b>
                 </h1>
                 <p>
